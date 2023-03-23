@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "tsc-watch --onSuccess \"node dist/index.js\"",
+    "ejer": "tsc-watch --onSuccess \"node dist/Ejercicio-23-03/index.js\"",
     "test": "mocha",
     "doc": "typedoc",
     "coverage": "nyc npm test"
